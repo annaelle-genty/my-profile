@@ -1,0 +1,146 @@
+body {
+	font-family: Courier, monospace;
+	color:black;
+	font-size:20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	border:3px solid black;
+	margin:25px;
+	background-image:url("https://i1.sndcdn.com/artworks-hEOBCMzK8YTYPz2Y-UBn09w-t500x500.jpg");
+}
+
+.float-container {
+    padding: 20px;
+    height: 1200px
+}
+
+.float-child {
+    width: 45%;
+    float: left;
+    padding: 5px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.25);
+	border-radius:3px;
+	margin:30px;
+	height: 500px;
+	background-color: #ffcc80;
+	opacity: 0.9;
+}  
+
+h1{
+	font-family: 'Train One', cursive;
+ 	font-size:95px;
+ 	font-weight: 200;
+ 	padding:0px;
+ 	color:white;
+}
+
+h1:hover{
+	color:rgb(146,122,146);
+}
+
+h2{
+ 	font-family: 'Quantico', sans-serif;
+	color:black;
+}
+
+#first {
+	column-count:2;
+	column-rule: 3px solid black;
+	column-gap: 5px;
+}
+
+@media (max-width: 1493px) {
+	.float-child {
+		width: 43%;
+		float: left;
+		padding:5px;
+		margin:25px;
+		height: 500px;
+	}  
+	#spotify {
+		padding:5px;
+		height: 600px;
+	} 
+}
+@media (max-width: 980px) {
+	.float-child {
+		width: 40%;
+		float: left;
+		padding:5px;
+		margin:25px;
+		height: 600px;
+	}
+	.float-container {
+    	padding: 20px;
+    	height: 1300px
+	}  
+	#spotify {
+		padding:5px;
+		height: 600px;
+	}  
+}
+@media (max-width: 710px) {
+	.float-child {
+		width: 82%;
+		float: none;
+		padding:15px;
+		margin:28px;
+		height: 500px;
+	}  
+	.float-container {
+    	padding: 20px;
+    	height: 2350px
+	}
+}
+
+#drip {
+	font-size:12px;
+}
+
+#picture1{
+	border-radius: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	padding:5px;
+}
+
+#picture2 {
+	border-radius: 15%;
+	margin-left: auto;
+	padding-top: 15px
+	margin-right: auto;
+	width: 65%;
+	padding:5px;
+}
+#terminator{
+	font-size: 50px;
+	color:white;
+}
+#terminator:hover{
+	color:rgb(146,122,146);
+}
+
+.fa-facebook:hover {
+    color: rgb(146,122,146) !important;
+}
+
+.fa-instagram:hover {
+    color: rgb(146,122,146) !important;
+}
+
+.fa-linkedin:hover {
+    color: rgb(146,122,146) !important;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+	margin-bottom: 15px;
+}
+
+a:hover{
+	color:rgb(146,122,146);
+}
